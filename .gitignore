@@ -1,0 +1,6 @@
+**/_output/
+**/*.html
+**/.quarto/
+*.pdf
+.Rproj.user/
+*.Rhistory

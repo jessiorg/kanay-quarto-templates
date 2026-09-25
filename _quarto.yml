@@ -1,0 +1,20 @@
+# Quarto Project Configuration
+# Kanay — Quarto Templates with Kami Design Tokens
+
+project:
+  type: website
+  output-dir: _output
+
+format:
+  html:
+    theme: none
+    css: styles/kami-tokens.css
+    highlight-style: github
+    df-print: paged
+  pdf:
+    documentclass: article
+
+execute:
+  echo: false
+  warning: false
+  cache: true

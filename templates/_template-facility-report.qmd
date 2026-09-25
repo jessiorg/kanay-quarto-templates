@@ -1,0 +1,38 @@
+---
+title: "{{FACILITY_NAME}}"
+format:
+  html:
+    theme: none
+    css: ../styles/kami-tokens.css
+engine: knitr
+---
+
+# {{FACILITY_NAME}}
+
+*Report generated: `r Sys.time()`*
+
+## Overview
+
+This is a facility report template. Replace `{{FACILITY_NAME}}` with the actual facility name when rendering.
+
+## Data
+
+```{r}
+#| label: load-data
+# Load data — replace path with actual data source
+# data <- read.csv("/path/to/data.csv")
+# summary(data)
+cat("Replace with actual data loading code.\n")
+```
+
+## Summary
+
+```{r}
+#| label: summary-stats
+# summary(data)
+cat("Summary will appear here.\n")
+```
+
+---
+
+*Template: `templates/_template-facility-report.qmd` — Kanay Quarto Templates*
